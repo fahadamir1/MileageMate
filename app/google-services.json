@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000403588298",
+    "project_id": "mileagemate",
+    "storage_bucket": "mileagemate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000403588298:android:c2b7500cfb842e81f51033",
+        "android_client_info": {
+          "package_name": "com.example.mileagemate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000403588298-0h442b6q05p0jv4dsbui3tq7hc6m89jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHVGvfiymSO1fB6TTbmvOCN_AVsLjdXY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000403588298-0h442b6q05p0jv4dsbui3tq7hc6m89jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
