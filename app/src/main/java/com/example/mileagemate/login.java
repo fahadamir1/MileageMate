@@ -64,7 +64,7 @@ public class login extends AppCompatActivity {
             pDialog.show();
         }
         else {
-            pDialog.dismissWithAnimation();
+            pDialog.dismiss();
         }
     }
 

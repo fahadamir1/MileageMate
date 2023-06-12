@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-<item
-    android:id="@+id/ClearAll"
-    android:icon="@drawable/clear_all"
-    android:title="Clear Data"
-    />
+
+                <item
+                    android:id="@+id/camra"
+                    android:icon="@drawable/image_foreground"
+                    android:title="Image to Text"
+                    app:showAsAction="always"
+                    />
+                 <item
+                    android:id="@+id/ClearAll"
+                    android:icon="@drawable/clear_all"
+                    android:title="Clear Data"
+                    app:showAsAction="collapseActionView" />
+                 <item
+                    android:id="@+id/SyncOnline"
+                    android:icon="@drawable/baseline_cloud_sync_24"
+                    android:title="Sync Data"
+                    app:showAsAction="collapseActionView"/>
+                 <item
+                    android:id="@+id/Refresh"
+                    android:icon="@drawable/baseline_refresh_24"
+                    android:title="Refresh"
+                    app:showAsAction="collapseActionView"/>
     <item
-        android:id="@+id/SyncOnline"
-        android:icon="@drawable/baseline_cloud_sync_24"
-        android:title="Sync Data"
-        app:showAsAction="ifRoom"/>
-    <item
-        android:id="@+id/Refresh"
-        android:icon="@drawable/baseline_refresh_24"
-        android:title="Refresh"
-        app:showAsAction="ifRoom"/>
+        android:id="@+id/lost"
+        android:icon="@drawable/black_arrow"
+        android:title="Get Lost Data"
+        app:showAsAction="collapseActionView"/>
 </menu>

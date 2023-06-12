@@ -98,7 +98,7 @@ public class signup extends AppCompatActivity {
         pDialog.show();
     }
        else {
-            pDialog.dismissWithAnimation();
+            pDialog.dismiss();
         }
     }
 

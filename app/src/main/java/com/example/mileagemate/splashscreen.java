@@ -40,6 +40,6 @@ ImageView logo;
                     finish();
                 }
             }
-        },4000);
+        },2000);
     }
 }

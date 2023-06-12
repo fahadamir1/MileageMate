@@ -2,8 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -16,6 +20,9 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".crop"
+            android:exported="false" />
+        <activity
             android:name=".emailverification"
             android:exported="false" />
         <activity
@@ -27,8 +34,7 @@
         <activity
             android:name=".Dashboard"
             android:exported="false"
-            android:theme="@style/MileageMate"
-            />
+            android:theme="@style/MileageMate" />
         <activity
             android:name=".signup"
             android:exported="false" />
@@ -44,6 +50,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
     </application>
 
 </manifest>

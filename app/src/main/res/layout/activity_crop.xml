@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crop"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Result:"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:fontFamily="@font/poppins_semibold"
+    android:textSize="@dimen/_20ssp"/>
+
+    <EditText
+        android:id="@+id/setgeneratedtext"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_112sdp"
+        android:ems="19"
+        android:hint="Result is shown here" />
+    <Button
+        android:id="@+id/adduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image View"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="@dimen/_20ssp"/>
+    <ImageView
+        android:id="@+id/imagepreview"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxHeight="@dimen/_250sdp"/>
+
+
+
+</LinearLayout>

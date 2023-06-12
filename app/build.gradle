@@ -47,4 +47,6 @@ dependencies {
     implementation 'io.github.tutorialsandroid:kalertdialog:20.3.6'
     implementation 'com.github.TutorialsAndroid:progressx:v6.0.19'
     implementation "com.airbnb.android:lottie:6.0.0"
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.3.1'
+    implementation "com.google.android.gms:play-services-vision:20.1.3"
 }
